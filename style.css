@@ -1,0 +1,182 @@
+h1 {
+    margin: 0;
+    font-size: 30px;
+    margin-right: 20px;
+    font-family: Helvetica;
+    color: white; 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.header{
+    background-color: rgb(0, 0, 0);
+    padding: 30px 25px;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+title{
+    margin: 0;
+    font-size: 28px;
+    margin-right: 20px;
+    font-family: Helvetica;
+    color: white;
+}
+
+.nav{
+    margin-left: auto;
+}
+
+.nav-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-list li{
+    margin-right: 20px;
+
+}
+
+.nav-list a{
+    text-decoration: none;
+    font-family: Helvetica;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-list li:last-child{
+    margin-right: 0%;
+}
+
+
+.nav-list a:hover{
+    color:aqua;
+}
+
+#image{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(../img/metro-boomin-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.box{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: helvetica;
+    
+}
+.content{
+    margin: 0;
+    font-size: 18px;
+}
+
+#image2{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(../img/rocky.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#image3{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(../img/Utopia.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#image4{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(../img/Central.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#image5{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(../img/Kendrick.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#image6{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(../img/21\ savage.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#image7{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(../img/westiside.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#scrollToTopBtn {
+    display: block;
+    position: fixed; /* Fijado en la ventana del navegador */
+    bottom: 20px; /* Distancia desde la parte inferior */
+    right: 20px; /* Distancia desde la derecha */
+    z-index: 100; /* Asegurar que esté por encima de otros elementos */
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    outline: none; /* Sin contorno */
+    width: 50px; /* Ancho del botón */
+    height: 50px; /* Altura del botón */
+    font-size: 24px; /* Tamaño de la fuente */
+    text-align: center; /* Centrar el texto */
+    line-height: 50px; /* Centrar verticalmente el texto */
+    cursor: pointer; /* Cursor de puntero */
+    border-radius: 50%; /* Bordes redondeados */
+    opacity: 0.7; /* Opacidad */
+    transition: opacity 0.3s; /* Transición suave */
+}
+
+#scrollToTopBtn:hover {
+    opacity: 1; /* Opacidad completa al pasar el ratón */
+}

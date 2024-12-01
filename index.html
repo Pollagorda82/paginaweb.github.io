@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuck Stylist</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="title">Fuck Stylist</h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#">Artistas</a></li>
+                    <li><a id="link-sobre" href="pagina2.html">Sobre Fuck Stylist</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="image">
+        <div class="box">
+            <p class="contenido">
+            <h2>Metro Boomin</h2>
+            Leland Tyler Wayne (St. Louis, Missouri,16 de septiembre de 1993), conocido profesionalmente como Metro
+            Boomin (también conocido como Young Metro o simplemente Metro) es un productor, ejecutivo de discos,
+            compositor y DJ estadounidense.
+            </p>
+        </div>
+    </div>
+
+    <div id="image2">
+        <div class="box">
+            <p class="contenido">
+            <h2>A$AP Rocky</h2>
+            Rakim Athelaston Mayers (Harlem, Nueva York; 3 de octubre de 1988), más conocido por su nombre artístico
+            ASAP Rocky (estilizado como A$AP Rocky), es un rapero, cantante, productor, actor, escritor y director
+            estadounidense, miembro del grupo de hip hop A$AP Mob, del cual adaptó su apodo.
+            </p>
+        </div>
+    </div>
+
+    <div id="image3">
+        <div class="box">
+            <p class="contenido">
+            <h2>Travis Scott</h2>
+            Jacques Webster, Jr. (nacido el 30 de abril de 1991), mejor conocido por su nombre artístico Travis
+            Scott (anteriormente estilizado como Travi$ Scott), es un rapero, cantante, compositor y productor
+            estadounidense de Houston, Texas. En 2012, Scott firmó contrato con Epic Records.
+            </p>
+        </div>
+    </div>
+
+    <div id="image4">
+        <div class="box">
+            <p class="contenido">
+            <h2>Central Cee</h2>
+            Oakley Neil H. T. Caesar-Su (Shepherd's Bush, Londres, Inglaterra; 4 de junio de 1998), conocido por su
+            nombre artístico Central Cee, es un rapero y compositor británico de Ladbroke Grove, Londres.​ Saltó a
+            la fama en 2020 con el lanzamiento de los sencillos «Day in the Life» y Loading.
+            </p>
+        </div>
+    </div>
+
+    <div id="image5">
+        <div class="box">
+            <p class="contenido">
+            <h2>Kendrick Lamar</h2>
+            Kendrick Lamar nació el 17 de junio de 1987 en Compton, California. Desde temprana edad, mostró interés por
+            la música y el rap. Comenzó a escribir letras a los 16 años y se presentaba en pequeños eventos locales. Su
+            determinación lo llevó a firmar con la discográfica Top Dawg Entertainment, donde lanzó su álbum debut,
+            “Section.80″, en 2011. Desde entonces, su carrera ha estado en constante ascenso.
+            </p>
+        </div>
+    </div>
+
+    <div id="image6">
+        <div class="box">
+            <p class="contenido">
+            <h2>21 Savage</h2>
+            21 Savage es un rapero y compositor nacido en Gran Bretaña y criado en Atlanta, conocido por sus letras
+            crudas y éxitos como "Bank Account" y "A Lot". Saltó a la fama con su arresto inesperado por parte de ICE en
+            2019 debido a problemas de visa, resaltando sus orígenes británicos.
+            </p>
+        </div>
+    </div>
+
+    <div id="image7">
+        <div class="box">
+            <p class="contenido">
+            <h2>Westside-Gunn</h2>
+            </h2>
+            Alvin Lamar Worthy (27 de julio de 1982), conocido como Westside Gunn, es un rapero estadounidense de
+            Buffalo, Nueva York. Cofundador del sello independiente de hip-hop Griselda Records, hermano del rapero
+            Conway The Machine y primo del rapero Benny the Butcher, con quienes colabora frecuentemente.
+            </p>
+        </div>
+    </div>
+
+    <a href="#top" id="scrollToTopBtn" title="Go to top">↑</a>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const currentPath = window.location.pathname;
+            if (currentPath.includes('pagina2.html')) {
+                document.getElementById('link-sobre').classList.add('active');
+            }
+        });
+    </script>
+
+</body>
+
+</html>
